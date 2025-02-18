@@ -91,7 +91,6 @@ images.forEach(image => {
 imageList.appendChild(fragment);
 
 const lightbox = new SimpleLightbox('.gallery a', {
-  captions: true,
+  captionsData: 'alt',
   captionDelay: 250,
-  captionType: 'alt',
 });
